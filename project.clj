@@ -10,4 +10,5 @@
                                    [ring-mock "0.1.5"]]}}
     :plugins [[speclj "3.1.0"]
              [lein-ring "0.8.13"]]
-    :test-paths ["spec"])
+    :test-paths ["spec"]
+    :ring {:handler microservice-template-clj.server/app})
