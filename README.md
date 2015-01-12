@@ -1,9 +1,9 @@
-# microservice-template-clj
+# Microservice template (clojure)
 
 
 Simple server with a heartbeat route.
 
-To run the server use on default port (3000)
+To run the server on default port (3000) use
 
 `lein ring server`
 
